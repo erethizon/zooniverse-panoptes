@@ -229,4 +229,8 @@ __marimo__/
 .venv
 
 #mac file thingy
-.DS_Store
+.DS_Storecredentials.json
+
+#credential files to ignore
+credentials.json
+token.json
