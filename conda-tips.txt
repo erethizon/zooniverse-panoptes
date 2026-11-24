@@ -1,0 +1,30 @@
+Conda tips:
+
+activate an environment
+`conda activate environment-name` or use commad pallate (Cmd+Shift+P) -> Python: Select Interpreter and choose environment
+
+deactivate an environment
+`conda deactivate`
+
+list conda environments
+`conda env list`
+
+determine conda version
+`conda --version`
+
+Handy commands
+List all environments	`conda env list`
+Remove an environment	`conda env remove -n myproject`
+Save environment to a file	`conda env export > environment.yml`
+Recreate from that file	`conda env create -f environment.yml`
+Update a package	`conda update pandas`
+Stop base auto-activating	`conda config --set auto_activate_base false`
+
+Check python version inside environment
+`python --version`
+
+Update python version in place
+`conda update python`
+
+Rebuild the conda environment (assuming an environment.yml file is saved in project)
+`conda env create -f environment.yml`

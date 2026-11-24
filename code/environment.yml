@@ -1,0 +1,9 @@
+name: zooniverse-panoptes
+dependencies:
+  - python=3.12.16
+  - pandas
+  - ipykernel
+  - pip
+  - pip:
+      - panoptes-client
+      - panoptes-aggregator
